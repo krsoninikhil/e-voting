@@ -1,0 +1,29 @@
+<?php session_destroy(); ?>
+<html>
+   <head><title>Confirmation Page</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+     <style>
+	    #content{border: 2px solid #343434;text-align:center;position:relative;width:600px; background-color:#eeeeee; font-family:arial; color:#343434;padding:40px; margin: 100px auto;}
+		h1{font-size:40;} hr{width:90%;}
+		h4{margin-top:0;padding-top:0;}
+		body{background-color:#dddddd;}
+	 </style>
+   </head>
+   <body>
+     <div id="content" align="center">
+       <h1>You have successfully voted.</h1><hr>
+       <h4>Thanks for using your valuable vote.<br /> <a href="elect.php">change vote</a> &nbsp; &nbsp;
+        <a href="index.php">home</a></h4>
+	  </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51363502-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   </body>
+</html>

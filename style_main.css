@@ -1,0 +1,30 @@
+#parent{width:1300px; margin:auto; }
+#page{ width:400px;   margin-top:50px; margin-left: 100px; float: left;}
+//h1{text-align:center; font-family:monotype corsiva;}
+#page hr{width:90%;}
+#form{border:1px solid #343434; //background-image: url('images/election.jpg');    //border-radius:15px; 
+	font-size:20; color:#343434;}
+input[type="submit"] {background-color: rgba(0,0,0,0.5); color:white; border: 0; padding: 5px 20px;}
+input[type="submit"]:hover {background-color: #343434; }
+
+input{ padding:4px; border-radius:0px; border:1px solid #343434; }
+.footer{background-color:rgba(0,0,0,0.5); color:white; text-align:center; clear:both; }
+.footer a {color:white;text-decoration:none;} .footer a:hover {color:blue; }
+html{background:url('images/animated.jpg'); background-repeat: no-repeat; background-size: 50% 100%; }
+
+body{background-color: rgba(255,255,255,0.9); margin:0 ; padding: 0; font-family: ubuntu, arial;}
+#voter select{ width:200px; padding: 3px;}
+#voter input{border-color:#CCCCFF;}
+.vote{ font-size:20; color:#55aadd;}
+#heading{font-size:20;}
+#empty{ color:red; }
+//#voter form{display: inline;}
+#info { font-family: ubuntu, arial; color: #343434; float: left;
+	  width: 700px; //background-color: yellow; 
+	  padding-right: 0px; padding-top: 50px; margin-left:50px;}
+#info h1{ font-size: 70; font-weight: 500; margin:0 ; }
+#info p{  font-size: 30; margin-top: 200px; }
+#lookupid{ font-size: 11px; font-family: arial; }
+#lookupid a{ text-decoration: none;}
+#lookupid a:hover{ text-decoration: underline;}
+#tag{ font-size: 20;}
